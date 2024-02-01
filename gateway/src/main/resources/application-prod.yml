@@ -9,6 +9,12 @@ spring:
   application:
     name: gateway
 
+logging:
+  level:
+    com:
+      parcel:
+        gateway: DEBUG
+
 management:
   endpoints:
     web:
